@@ -21,16 +21,21 @@
     "@monaco-editor/react": "^4.4.5",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.0.0",
-    "http-server": "^14.1.0",
-    "parcel": "^2.3.0",
+    "http-server": "^14.1.1",
+    "parcel": "^2.8.0",
     "process": "^0.11.10"
   },
   "alias": {
     "example": "./build/dev/javascript/lustre/dist/example",
     "lustre": "./build/dev/javascript/lustre/dist",
-    "playground": "./build/dev/javascript/lustre/dist/playground"
+    "playground": "./build/dev/javascript/lustre/dist/playground",
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime"
   },
   "dependencies": {
+    "preact":"^10.11.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

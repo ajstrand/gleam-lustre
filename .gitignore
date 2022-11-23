@@ -7,5 +7,6 @@ erl_crash.dump
 
 node_modules
 .parcel-cache
+package-lock.json
 
 dist
