@@ -19,3 +19,16 @@ Make a production build under `dist` folder:
 ```sh
 make
 ```
+
+## preact support
+
+If you want to use lustre with preact you need to install [https://github.com/preactjs/compat-alias-package](this) package.
+
+THis package aliases React with package.json
+
+Of course, there are other ways to alias React if you want to use a different build tool.
+
+
+```sh
+npm install react@npm:@preact/compat react-dom@npm:@preact/compat
+```
